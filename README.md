@@ -12,7 +12,7 @@ Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my ow
 **Array**
 
 - 01 Two Sum- https://leetcode.com/problems/two-sum/ :white_check_mark:
-- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ 
+- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark:
 - 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
 - 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
 - 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
