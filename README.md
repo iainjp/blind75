@@ -4,16 +4,17 @@ Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my ow
 
 ## Running
 
-> `cd go/ && go test ./...`
+Run the tests:
+> `make test`
+
 
 ### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
-
 
 **Array**
 
 - 01 Two Sum- https://leetcode.com/problems/two-sum/ :white_check_mark:
 - 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark:
-- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
+- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ :white_check_mark:
 - 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
 - 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
 - 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
