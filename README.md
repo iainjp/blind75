@@ -96,7 +96,7 @@ Run the tests:
 
 **String**
 
-- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/ :white_check_mark:
 - 51 Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 - 52 Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
 - 53 Valid Anagram - https://leetcode.com/problems/valid-anagram/
