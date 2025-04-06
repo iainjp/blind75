@@ -76,44 +76,44 @@ Run the tests:
 
 **Linked List**
 
-- 40 Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/ ✅
-- 41 Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/ ✅
-- 42 Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/ ✅
+- 40 Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/
+- 41 Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
+- 42 Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/
 - 43 Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
-- 44 Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ✅
-- 45 Reorder List - https://leetcode.com/problems/reorder-list/ ✅
+- 44 Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+- 45 Reorder List - https://leetcode.com/problems/reorder-list/
 
 ---
 
 **Matrix**
 
-- 46 Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/ ✅
-- 47 Spiral Matrix - https://leetcode.com/problems/spiral-matrix/ ✅
-- 48 Rotate Image - https://leetcode.com/problems/rotate-image/ ✅
-- 49 Word Search - https://leetcode.com/problems/word-search/ ✅
+- 46 Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/
+- 47 Spiral Matrix - https://leetcode.com/problems/spiral-matrix/
+- 48 Rotate Image - https://leetcode.com/problems/rotate-image/
+- 49 Word Search - https://leetcode.com/problems/word-search/
 
 ---
 
 **String**
 
-- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/ ✅
-- 51 Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/ ✅
-- 52 Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/ ✅
-- 53 Valid Anagram - https://leetcode.com/problems/valid-anagram/ ✅
-- 54 Group Anagrams - https://leetcode.com/problems/group-anagrams/ ✅
-- 55 Valid Parentheses - https://leetcode.com/problems/valid-parentheses/ ✅
-- 56 Valid Palindrome - https://leetcode.com/problems/valid-palindrome/ ✅
-- 57 Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/ ✅
-- 58 Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/ ✅
-- 59 Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/ ✅
+- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+- 51 Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
+- 52 Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
+- 53 Valid Anagram - https://leetcode.com/problems/valid-anagram/
+- 54 Group Anagrams - https://leetcode.com/problems/group-anagrams/
+- 55 Valid Parentheses - https://leetcode.com/problems/valid-parentheses/
+- 56 Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+- 57 Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
+- 58 Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
+- 59 Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/
 
 ---
 
 **Tree**
 
-- 60 Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/ ✅
-- 61 Same Tree - https://leetcode.com/problems/same-tree/ ✅
-- 62 Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/ ✅
+- 60 Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- 61 Same Tree - https://leetcode.com/problems/same-tree/
+- 62 Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/
 - 63 Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
 - 64 Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/
 - 65 Serialize and Deserialize Binary Tree - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
