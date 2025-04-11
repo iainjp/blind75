@@ -1,27 +1,27 @@
 package exercises
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/iainjp/blind75/cmd/utils"
 )
 
 func TestTimeToBuyStocks(t *testing.T) {
-	t.Run("ExampleOne", func(t *testing.T) {
-		prices := []int{7, 1, 5, 3, 6, 4}
-		want := 5
 
-		got := maxProfit(prices)
+	var testCases = []struct {
+		input []int
+		want  int
+	}{
+		{[]int{7, 1, 5, 3, 6, 4}, 5},
+		{[]int{7, 6, 4, 3, 1}, 0},
+	}
 
-		utils.CheckEqual(got, want, t)
-	})
-
-	t.Run("ExampleTwo", func(t *testing.T) {
-		prices := []int{7, 6, 4, 3, 1}
-		want := 0
-
-		got := maxProfit(prices)
-
-		utils.CheckEqual(got, want, t)
-	})
+	for testNum, test := range testCases {
+		testName := fmt.Sprintf("Case [%v]", testNum)
+		t.Run(testName, func(t *testing.T) {
+			got := maxProfit(test.input)
+			utils.CheckEqual(got, test.want, t)
+		})
+	}
 }

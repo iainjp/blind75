@@ -8,20 +8,18 @@ import (
 )
 
 func TestLongestSubstring(t *testing.T) {
-	type TestCase struct {
+	var testCases = []struct {
 		name  string
 		input []int
 		want  int
+	}{
+		{"One", []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}, 6},
+		{"Two", []int{1}, 1},
+		{"Three", []int{5, 4, -1, 7, 8}, 23},
 	}
 
-	cases := []TestCase{
-		{name: "One", input: []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}, want: 6},
-		{name: "Two", input: []int{1}, want: 1},
-		{name: "Three", input: []int{5, 4, -1, 7, 8}, want: 23},
-	}
-
-	for _, test := range cases {
-		testName := fmt.Sprintf("Case [%v]", test.name)
+	for testNum, test := range testCases {
+		testName := fmt.Sprintf("Case [%v]", testNum)
 		t.Run(testName, func(t *testing.T) {
 			got := maxSubArray(test.input)
 			utils.CheckEqual(got, test.want, t)

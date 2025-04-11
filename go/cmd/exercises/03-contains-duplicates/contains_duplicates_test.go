@@ -1,37 +1,27 @@
 package exercises
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/iainjp/blind75/cmd/utils"
 )
 
 func TestContainsDuplicates(t *testing.T) {
+	var testCases = []struct {
+		input []int
+		want  bool
+	}{
+		{[]int{1, 2, 3, 1}, true},
+		{[]int{1, 2, 3, 4}, false},
+		{[]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}, true},
+	}
 
-	t.Run("ExampleOne", func(t *testing.T) {
-		nums := []int{1, 2, 3, 1}
-		want := true
-
-		got := containsDuplicate(nums)
-
-		utils.CheckEqual(got, want, t)
-	})
-
-	t.Run("ExampleTwo", func(t *testing.T) {
-		nums := []int{1, 2, 3, 4}
-		want := false
-
-		got := containsDuplicate(nums)
-
-		utils.CheckEqual(got, want, t)
-	})
-
-	t.Run("ExampleThree", func(t *testing.T) {
-		nums := []int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}
-		want := true
-
-		got := containsDuplicate(nums)
-
-		utils.CheckEqual(got, want, t)
-	})
+	for testNum, test := range testCases {
+		testName := fmt.Sprintf("Case [%v]", testNum)
+		t.Run(testName, func(t *testing.T) {
+			got := containsDuplicate(test.input)
+			utils.CheckEqual(got, test.want, t)
+		})
+	}
 }
