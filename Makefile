@@ -1,2 +1,2 @@
 test:
-	(cd go/cmd/exercises && go test ./...)
+	(cd go/cmd/exercises && go tool gotestsum)
