@@ -17,7 +17,7 @@ Run the tests:
 - 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ :white_check_mark:
 - 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/ :white_check_mark:
 - 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/ :white_check_mark:
-- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
+- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/ :white_check_mark:
 - 07 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - 08 Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - 09 3Sum - https://leetcode.com/problems/3sum/
