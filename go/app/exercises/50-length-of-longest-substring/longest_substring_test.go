@@ -7,24 +7,27 @@ import (
 	"github.com/iainjp/blind75/utils"
 )
 
+var testCases = []struct {
+	input string
+	want  int
+}{
+	{"abcabcbb", 3},
+	{"bbbbb", 1},
+	{"pwwkew", 3},
+}
+
 func TestLongestSubstring(t *testing.T) {
-	type TestCase struct {
-		name  string
-		input string
-		want  int
-	}
-
-	cases := []TestCase{
-		{name: "One", input: "abcabcbb", want: 3},
-		{name: "Two", input: "bbbbb", want: 1},
-		{name: "Three", input: "pwwkew", want: 3},
-	}
-
-	for _, test := range cases {
-		testName := fmt.Sprintf("Case [%v]", test.name)
+	for testNum, test := range testCases {
+		testName := fmt.Sprintf("Case [%v]", testNum)
 		t.Run(testName, func(t *testing.T) {
 			got := lengthOfLongestSubstring(test.input)
 			utils.CheckEqual(got, test.want, t)
 		})
+	}
+}
+
+func BenchmarkLongestSubstring(b *testing.B) {
+	for b.Loop() {
+		_ = lengthOfLongestSubstring(testCases[0].input)
 	}
 }

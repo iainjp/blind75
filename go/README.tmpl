@@ -2,6 +2,19 @@
 Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my own entertainment and learning.
 
 
+## How to use this repository
+
+I wanted to experiment with the repo reporting it's own successes and stats in the README.md. I'll likely extract some of this out
+into a more reusable tool for other scenarios (like Advent Of Code). 
+
+To write the report to README:
+> `make report`
+
+
+To run just the tests:
+> `make test`
+
+
 ## Results
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
@@ -9,15 +22,6 @@ Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my ow
 {{- range . }}
 | {{- .Package }} | {{ .AvgElapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestPass }}/{{ .TestCount }} |
 {{- end }}
-
-
-
-## Running
-
-Run the tests:
-> `make test`
-
-
 
 
 ### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):

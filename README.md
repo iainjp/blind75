@@ -2,27 +2,31 @@
 Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my own entertainment and learning.
 
 
+## How to use this repository
+
+I wanted to experiment with the repo reporting it's own successes and stats in the README.md. I'll likely extract some of this out
+into a more reusable tool for other scenarios (like Advent Of Code). 
+
+To write the report to README:
+> `make report`
+
+
+To run just the tests:
+> `make test`
+
+
 ## Results
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.18 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 |  |  |  | 3/3 |
-
-
-
-## Running
-
-Run the tests:
-> `make test`
-
-
+|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.17 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 | 0 B/op | 0 allocs/op | 5.170 ns/op | 2/2 |
+|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 | 0 B/op | 0 allocs/op | 34.09 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 | 32 B/op | 1 allocs/op | 17.35 ns/op | 2/2 |
+|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 | 0 B/op | 0 allocs/op | 5.840 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 | 0 B/op | 0 allocs/op | 4.467 ns/op | 2/2 |
+|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 | 0 B/op | 0 allocs/op | 4.443 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 | 0 B/op | 0 allocs/op | 30.26 ns/op | 3/3 |
 
 
 ### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
