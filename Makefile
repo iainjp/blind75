@@ -6,3 +6,6 @@ lint:
 
 format:
 	(cd go && go tool golangci-lint fmt)
+
+report:
+	(cd go && go run main.go report)

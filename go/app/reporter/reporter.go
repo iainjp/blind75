@@ -5,8 +5,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"html/template"
+	"os"
 	"os/exec"
+	"path/filepath"
 	"slices"
+	"sort"
 	"strings"
 	"time"
 )
@@ -140,15 +144,27 @@ func summarize(results []TestResult) []TestSummary {
 		reports = append(reports, report)
 	}
 
+	sort.Slice(reports, func(i, j int) bool { return reports[i].Package < reports[j].Package })
 	return reports
 }
 
-// TODO: work on views; text/template for writing to README, some TUI for terminal view.
 func Report() {
 	results := RunTests()
 	summaries := summarize(results)
 
-	for _, s := range summaries {
-		fmt.Printf("%+v\n", s)
+	outFile := filepath.Join("..", "README.md")
+	f, err := os.Create(outFile)
+	if err != nil {
+		panic(err)
+	}
+
+	var tmplFile = "README.tmpl"
+	tmpl, err := template.New(tmplFile).ParseFiles(tmplFile)
+	if err != nil {
+		panic(err)
+	}
+	err = tmpl.Execute(f, summaries)
+	if err != nil {
+		panic(err)
 	}
 }

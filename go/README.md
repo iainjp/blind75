@@ -2,11 +2,24 @@
 Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my own entertainment and learning.
 
 
+## How to use
+
+I wanted to set this repo up as it's own test harness, running the exercise code specified as tests and benchmarks, 
+and reporting the results to this README.md. 
+
+To run this:
+> `make report`
+
+To run the tests on their own (without writing README):
+> `make test`
+
+
+
 ## Results
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.18 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.25 ns/op | 3/3 |
 |github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 |  |  |  | 2/2 |
 |github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 |  |  |  | 3/3 |
 |github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 |  |  |  | 2/2 |
@@ -17,11 +30,6 @@ Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my ow
 
 
 
-## Running
-
-Run the tests:
-> `make test`
-
 
 
 
@@ -29,13 +37,13 @@ Run the tests:
 
 **Array**
 
-- 01 Two Sum- https://leetcode.com/problems/two-sum/ :white_check_mark:
-- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark:
-- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ :white_check_mark:
-- 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/ :white_check_mark:
-- 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/ :white_check_mark:
-- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/ :white_check_mark:
-- 07 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
+- 01 Two Sum- https://leetcode.com/problems/two-sum/ 
+- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ 
+- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ 
+- 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/ 
+- 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/ 
+- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/ 
+- 07 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ 
 - 08 Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - 09 3Sum - https://leetcode.com/problems/3sum/
 - 10 Container With Most Water - https://leetcode.com/problems/container-with-most-water/

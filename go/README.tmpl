@@ -6,14 +6,9 @@ Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my ow
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.18 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 |  |  |  | 2/2 |
-|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 |  |  |  | 3/3 |
-|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 |  |  |  | 3/3 |
+{{- range . }}
+| {{- .Package }} | {{ .AvgElapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestPass }}/{{ .TestCount }} |
+{{- end }}
 
 
 
