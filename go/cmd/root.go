@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	cmd "github.com/iainjp/blind75/cmd/report"
+	report "github.com/iainjp/blind75/cmd/report"
+	test "github.com/iainjp/blind75/cmd/test"
 	"github.com/spf13/cobra"
 )
 
@@ -24,7 +25,8 @@ func init() {
 
 func addCmds() {
 	RootCmd.AddCommand(
-		cmd.ReportCmd,
+		report.ReportCmd,
+		test.TestCmd,
 	)
 }
 
