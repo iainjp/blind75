@@ -1,8 +1,11 @@
 test:
-	(cd go/cmd/exercises && go tool gotestsum)
+	(cd go && go tool gotestsum)
 
 lint:
-	(cd go/cmd/exercises && go tool golangci-lint run)
+	(cd go && go tool golangci-lint run)
 
 format:
-	(cd go/cmd/exercises && go tool golangci-lint fmt)
+	(cd go && go tool golangci-lint fmt)
+
+report:
+	(cd go && go run main.go report)
