@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iainjp/blind75/cmd/utils"
+	"github.com/iainjp/blind75/utils"
 )
 
 func TestProductExceptSelf(t *testing.T) {

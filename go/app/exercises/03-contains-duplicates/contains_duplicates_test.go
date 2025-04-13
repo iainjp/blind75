@@ -4,23 +4,23 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iainjp/blind75/cmd/utils"
+	"github.com/iainjp/blind75/utils"
 )
 
-func TestTimeToBuyStocks(t *testing.T) {
-
+func TestContainsDuplicates(t *testing.T) {
 	var testCases = []struct {
 		input []int
-		want  int
+		want  bool
 	}{
-		{[]int{7, 1, 5, 3, 6, 4}, 5},
-		{[]int{7, 6, 4, 3, 1}, 0},
+		{[]int{1, 2, 3, 1}, true},
+		{[]int{1, 2, 3, 4}, false},
+		{[]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}, true},
 	}
 
 	for testNum, test := range testCases {
 		testName := fmt.Sprintf("Case [%v]", testNum)
 		t.Run(testName, func(t *testing.T) {
-			got := maxProfit(test.input)
+			got := containsDuplicate(test.input)
 			utils.CheckEqual(got, test.want, t)
 		})
 	}

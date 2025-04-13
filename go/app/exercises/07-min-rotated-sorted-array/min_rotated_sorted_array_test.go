@@ -4,22 +4,23 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iainjp/blind75/cmd/utils"
+	"github.com/iainjp/blind75/utils"
 )
 
-func TestMaximumProductSubarray(t *testing.T) {
+func TestMinRotatedSortedArray(t *testing.T) {
 	var testCases = []struct {
 		input []int
 		want  int
 	}{
-		{[]int{2, 3, -2, 4}, 6},
-		{[]int{-2, 0, -1}, 0},
+		{[]int{3, 4, 5, 1, 2}, 1},
+		{[]int{4, 5, 6, 7, 0, 1, 2}, 0},
+		{[]int{11, 13, 15, 17}, 11},
 	}
 
 	for testNum, test := range testCases {
 		testName := fmt.Sprintf("Case [%v]", testNum)
 		t.Run(testName, func(t *testing.T) {
-			got := maxProduct(test.input)
+			got := findMin(test.input)
 			utils.CheckEqual(got, test.want, t)
 		})
 	}

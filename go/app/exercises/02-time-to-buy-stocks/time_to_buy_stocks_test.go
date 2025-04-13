@@ -4,23 +4,23 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iainjp/blind75/cmd/utils"
+	"github.com/iainjp/blind75/utils"
 )
 
-func TestMaximumSubarray(t *testing.T) {
+func TestTimeToBuyStocks(t *testing.T) {
+
 	var testCases = []struct {
 		input []int
 		want  int
 	}{
-		{[]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}, 6},
-		{[]int{1}, 1},
-		{[]int{5, 4, -1, 7, 8}, 23},
+		{[]int{7, 1, 5, 3, 6, 4}, 5},
+		{[]int{7, 6, 4, 3, 1}, 0},
 	}
 
 	for testNum, test := range testCases {
 		testName := fmt.Sprintf("Case [%v]", testNum)
 		t.Run(testName, func(t *testing.T) {
-			got := maxSubArray(test.input)
+			got := maxProfit(test.input)
 			utils.CheckEqual(got, test.want, t)
 		})
 	}
