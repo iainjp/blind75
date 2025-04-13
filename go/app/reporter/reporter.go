@@ -75,9 +75,6 @@ func RunTests() []TestResult {
 	return results
 }
 
-// Benchmark result
-// {... "Output":"BenchmarkTwoSums-8   \t104114722\t        11.21 ns/op\t      16 B/op\t       1 allocs/op\n"}
-
 func summarize(results []TestResult) []TestSummary {
 	groupedByExercise := map[string][]TestResult{}
 	for _, result := range results {
@@ -146,6 +143,7 @@ func summarize(results []TestResult) []TestSummary {
 	return reports
 }
 
+// TODO: work on views; text/template for writing to README, some TUI for terminal view.
 func Report() {
 	results := RunTests()
 	summaries := summarize(results)
