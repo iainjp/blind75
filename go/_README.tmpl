@@ -2,7 +2,7 @@
 Blind75: The 75 top LeetCode problems and solutions, by iainjp. Mostly for my own entertainment and learning.
 
 
-## How to use this repository
+### How to use this repository
 
 I wanted to experiment with the repo reporting it's own successes and stats in the README.md. I'll likely extract some of this out
 into a more reusable tool for other scenarios (like Advent Of Code). 
@@ -20,11 +20,11 @@ To run just the tests:
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
 {{- range . }}
-| {{- .Package }} | {{ .AvgElapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestPass }}/{{ .TestCount }} |
+| {{- .Package }} | {{ .Elapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestResult }}|
 {{- end }}
 
 
-### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
+## List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
 
 **Array**
 
