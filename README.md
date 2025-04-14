@@ -19,14 +19,14 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.26 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 | 0 B/op | 0 allocs/op | 4.968 ns/op | 2/2 |
-|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 | 0 B/op | 0 allocs/op | 34.11 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 | 32 B/op | 1 allocs/op | 17.39 ns/op | 2/2 |
-|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 | 0 B/op | 0 allocs/op | 5.840 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 | 0 B/op | 0 allocs/op | 4.439 ns/op | 2/2 |
-|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 | 0 B/op | 0 allocs/op | 4.504 ns/op | 3/3 |
-|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 | 0 B/op | 0 allocs/op | 30.38 ns/op | 3/3 |
+|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.15 ns/op | 3/3 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 | 0 B/op | 0 allocs/op | 5.055 ns/op | 2/2 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 | 0 B/op | 0 allocs/op | 34.06 ns/op | 3/3 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 | 32 B/op | 1 allocs/op | 17.24 ns/op | 2/2 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 | 0 B/op | 0 allocs/op | 5.720 ns/op | 3/3 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 | 0 B/op | 0 allocs/op | 4.472 ns/op | 2/2 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 | 0 B/op | 0 allocs/op | 4.472 ns/op | 3/3 :white_check_mark:|
+|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 | 0 B/op | 0 allocs/op | 30.24 ns/op | 3/3 :white_check_mark:|
 
 
 ### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):

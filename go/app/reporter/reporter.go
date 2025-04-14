@@ -41,6 +41,7 @@ type TestSummary struct {
 	TestCount   int
 	TestPass    int
 	TestFail    int
+	Emoji       string
 }
 
 func RunTests() []TestResult {
@@ -130,6 +131,13 @@ func summarize(results []TestResult) []TestSummary {
 			totalElapsed += e
 		}
 
+		var emoji string
+		if fails == 0 {
+			emoji = ":white_check_mark:"
+		} else {
+			emoji = ":x:"
+		}
+
 		report := TestSummary{
 			Package:     pkg,
 			AvgElapsed:  totalElapsed / float64(len(elapsed)),
@@ -139,12 +147,15 @@ func summarize(results []TestResult) []TestSummary {
 			TestCount:   passes + fails,
 			TestPass:    passes,
 			TestFail:    fails,
+			Emoji:       emoji,
 		}
 
 		reports = append(reports, report)
 	}
 
-	sort.Slice(reports, func(i, j int) bool { return reports[i].Package < reports[j].Package })
+	sortByPackageName := func(i, j int) bool { return reports[i].Package < reports[j].Package }
+	sort.Slice(reports, sortByPackageName)
+
 	return reports
 }
 
@@ -152,6 +163,7 @@ func Report() {
 	results := RunTests()
 	summaries := summarize(results)
 
+	// path from execution root (go./ dir) to README.md (top of repo)
 	outFile := filepath.Join("..", "README.md")
 	f, err := os.Create(outFile)
 	if err != nil {

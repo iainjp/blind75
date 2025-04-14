@@ -20,7 +20,7 @@ To run just the tests:
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
 {{- range . }}
-| {{- .Package }} | {{ .AvgElapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestPass }}/{{ .TestCount }} |
+| {{- .Package }} | {{ .AvgElapsed }} | {{ .BytesPerOp }} | {{ .AllocsPerOp }} | {{ .NsPerOp}} | {{ .TestPass }}/{{ .TestCount }} {{ .Emoji }}|
 {{- end }}
 
 
