@@ -10,14 +10,11 @@ import (
 
 type ResultViewModel struct {
 	Package     string
-	Elapsed     float64
+	Elapsed     string
 	BytesPerOp  string
 	AllocsPerOp string
 	NsPerOp     string
-	TestCount   int
-	TestPass    int
-	TestFail    int
-	Emoji       string
+	TestResult  string
 }
 
 func buildPackageLink(packageName string) string {
@@ -26,28 +23,33 @@ func buildPackageLink(packageName string) string {
 	return fmt.Sprintf("[%v](%v)", name, relativePath)
 }
 
-func getEmoji(testSummary TestSummary) string {
+func buildTestResultString(testSummary TestSummary) string {
+	var emoji string
 	if testSummary.TestFail == 0 {
-		return ":white_check_mark:"
+		emoji = ":white_check_mark:"
 	} else {
-		return ":x:"
+		emoji = ":x:"
 	}
+
+	return fmt.Sprintf("%v/%v %v", testSummary.TestPass, testSummary.TestCount, emoji)
+}
+
+func buildElapsedString(testSummary TestSummary) string {
+	return fmt.Sprintf("%.3f", testSummary.Elapsed)
 }
 
 func BuildViewModel(testSummary TestSummary) ResultViewModel {
 	packageLink := buildPackageLink(testSummary.Package)
-	emoji := getEmoji(testSummary)
+	testResultString := buildTestResultString(testSummary)
+	elapsedString := buildElapsedString(testSummary)
 
 	return ResultViewModel{
 		Package:     packageLink,
-		Elapsed:     testSummary.Elapsed,
+		Elapsed:     elapsedString,
 		BytesPerOp:  testSummary.BytesPerOp,
 		AllocsPerOp: testSummary.AllocsPerOp,
 		NsPerOp:     testSummary.NsPerOp,
-		TestCount:   testSummary.TestCount,
-		TestPass:    testSummary.TestPass,
-		TestFail:    testSummary.TestFail,
-		Emoji:       emoji,
+		TestResult:  testResultString,
 	}
 }
 
