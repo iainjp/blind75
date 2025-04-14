@@ -66,7 +66,11 @@ func runTestsAndBenchmarks() []TestResult {
 	scanner := bufio.NewScanner(&stdout)
 	for scanner.Scan() {
 		tr := TestResult{}
-		json.Unmarshal(scanner.Bytes(), &tr)
+		jsonErr := json.Unmarshal(scanner.Bytes(), &tr)
+
+		if jsonErr != nil {
+			panic(jsonErr)
+		}
 
 		if slices.Contains(wantedActions, tr.Action) {
 			results = append(results, tr)
