@@ -19,15 +19,16 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|[01-two-sums](go/app/exercises/01-two-sums) | 1.372 | 16 B/op | 1 allocs/op | 11.29 ns/op | 3/3 :white_check_mark:|
-|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.382 | 0 B/op | 0 allocs/op | 5.070 ns/op | 2/2 :white_check_mark:|
-|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.383 | 0 B/op | 0 allocs/op | 34.10 ns/op | 3/3 :white_check_mark:|
-|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.379 | 32 B/op | 1 allocs/op | 17.44 ns/op | 2/2 :white_check_mark:|
-|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.358 | 0 B/op | 0 allocs/op | 5.861 ns/op | 3/3 :white_check_mark:|
-|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.442 | 0 B/op | 0 allocs/op | 4.784 ns/op | 2/2 :white_check_mark:|
-|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.357 | 0 B/op | 0 allocs/op | 4.505 ns/op | 3/3 :white_check_mark:|
-|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.345 | 0 B/op | 0 allocs/op | 3.617 ns/op | 4/4 :white_check_mark:|
-|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.381 | 0 B/op | 0 allocs/op | 30.29 ns/op | 3/3 :white_check_mark:|
+|[01-two-sums](go/app/exercises/01-two-sums) | 1.370 | 16 B/op | 1 allocs/op | 11.23 ns/op | 3/3 :white_check_mark:|
+|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.383 | 0 B/op | 0 allocs/op | 5.106 ns/op | 2/2 :white_check_mark:|
+|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.377 | 0 B/op | 0 allocs/op | 34.51 ns/op | 3/3 :white_check_mark:|
+|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.382 | 32 B/op | 1 allocs/op | 17.36 ns/op | 2/2 :white_check_mark:|
+|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.374 | 0 B/op | 0 allocs/op | 5.850 ns/op | 3/3 :white_check_mark:|
+|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.356 | 0 B/op | 0 allocs/op | 4.487 ns/op | 2/2 :white_check_mark:|
+|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.364 | 0 B/op | 0 allocs/op | 4.491 ns/op | 3/3 :white_check_mark:|
+|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.343 | 0 B/op | 0 allocs/op | 3.615 ns/op | 4/4 :white_check_mark:|
+|[09-3sum](go/app/exercises/09-3sum) | 1.267 | 120 B/op | 4 allocs/op | 167.8 ns/op | 3/3 :white_check_mark:|
+|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.381 | 0 B/op | 0 allocs/op | 30.37 ns/op | 3/3 :white_check_mark:|
 
 
 ## List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):

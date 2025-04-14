@@ -57,7 +57,7 @@ func runTestsAndBenchmarks() []TestResult {
 	execErr := testCmd.Run()
 	if execErr != nil {
 		fmt.Printf("Error running tests. Stderr: %v", stderr.String())
-		panic(execErr)
+		// don't panic, might be legit test failures
 	}
 
 	results := []TestResult{}
