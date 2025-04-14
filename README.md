@@ -19,28 +19,28 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|[01-two-sums](go/app/exercises/01-two-sums) | 1.366 | 16 B/op | 1 allocs/op | 11.39 ns/op | 3/3 :white_check_mark:|
-|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.370 | 0 B/op | 0 allocs/op | 5.004 ns/op | 2/2 :white_check_mark:|
-|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.380 | 0 B/op | 0 allocs/op | 34.16 ns/op | 3/3 :white_check_mark:|
-|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.380 | 32 B/op | 1 allocs/op | 17.44 ns/op | 2/2 :white_check_mark:|
-|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.365 | 0 B/op | 0 allocs/op | 5.871 ns/op | 3/3 :white_check_mark:|
-|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.377 | 0 B/op | 0 allocs/op | 4.441 ns/op | 2/2 :white_check_mark:|
-|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.359 | 0 B/op | 0 allocs/op | 4.519 ns/op | 3/3 :white_check_mark:|
-|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.348 | 0 B/op | 0 allocs/op | 3.640 ns/op | 4/4 :white_check_mark:|
-|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.380 | 0 B/op | 0 allocs/op | 30.44 ns/op | 3/3 :white_check_mark:|
+|[01-two-sums](go/app/exercises/01-two-sums) | 1.372 | 16 B/op | 1 allocs/op | 11.29 ns/op | 3/3 :white_check_mark:|
+|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.382 | 0 B/op | 0 allocs/op | 5.070 ns/op | 2/2 :white_check_mark:|
+|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.383 | 0 B/op | 0 allocs/op | 34.10 ns/op | 3/3 :white_check_mark:|
+|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.379 | 32 B/op | 1 allocs/op | 17.44 ns/op | 2/2 :white_check_mark:|
+|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.358 | 0 B/op | 0 allocs/op | 5.861 ns/op | 3/3 :white_check_mark:|
+|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.442 | 0 B/op | 0 allocs/op | 4.784 ns/op | 2/2 :white_check_mark:|
+|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.357 | 0 B/op | 0 allocs/op | 4.505 ns/op | 3/3 :white_check_mark:|
+|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.345 | 0 B/op | 0 allocs/op | 3.617 ns/op | 4/4 :white_check_mark:|
+|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.381 | 0 B/op | 0 allocs/op | 30.29 ns/op | 3/3 :white_check_mark:|
 
 
 ## List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
 
 **Array**
 
-- 01 Two Sum- https://leetcode.com/problems/two-sum/ :white_check_mark:
-- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark:
-- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ :white_check_mark:
-- 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/ :white_check_mark:
-- 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/ :white_check_mark:
-- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/ :white_check_mark:
-- 07 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
+- 01 Two Sum- https://leetcode.com/problems/two-sum/ 
+- 02 Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+- 03 Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ 
+- 04 Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
+- 05 Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
+- 06 Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
+- 07 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 - 08 Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 - 09 3Sum - https://leetcode.com/problems/3sum/
 - 10 Container With Most Water - https://leetcode.com/problems/container-with-most-water/
@@ -118,7 +118,7 @@ To run just the tests:
 
 **String**
 
-- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/ :white_check_mark:
+- 50 Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/
 - 51 Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 - 52 Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
 - 53 Valid Anagram - https://leetcode.com/problems/valid-anagram/
