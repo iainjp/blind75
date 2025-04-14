@@ -19,14 +19,14 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|github.com/iainjp/blind75/app/exercises/01-two-sums | 0 | 16 B/op | 1 allocs/op | 11.15 ns/op | 3/3 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/02-time-to-buy-stocks | 0 | 0 B/op | 0 allocs/op | 5.055 ns/op | 2/2 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/03-contains-duplicates | 0 | 0 B/op | 0 allocs/op | 34.06 ns/op | 3/3 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/04-product-of-array-except-self | 0 | 32 B/op | 1 allocs/op | 17.24 ns/op | 2/2 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/05-maximum-subarray | 0 | 0 B/op | 0 allocs/op | 5.720 ns/op | 3/3 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/06-maximum-product-subarray | 0 | 0 B/op | 0 allocs/op | 4.472 ns/op | 2/2 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/07-min-rotated-sorted-array | 0 | 0 B/op | 0 allocs/op | 4.472 ns/op | 3/3 :white_check_mark:|
-|github.com/iainjp/blind75/app/exercises/50-length-of-longest-substring | 0 | 0 B/op | 0 allocs/op | 30.24 ns/op | 3/3 :white_check_mark:|
+|[01-two-sums](go/app/exercises/01-two-sums) | 1.374 | 16 B/op | 1 allocs/op | 11.20 ns/op | 3/3 :white_check_mark:|
+|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.361 | 0 B/op | 0 allocs/op | 5.127 ns/op | 2/2 :white_check_mark:|
+|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.3820000000000001 | 0 B/op | 0 allocs/op | 34.03 ns/op | 3/3 :white_check_mark:|
+|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.376 | 32 B/op | 1 allocs/op | 17.61 ns/op | 2/2 :white_check_mark:|
+|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.3599999999999999 | 0 B/op | 0 allocs/op | 5.880 ns/op | 3/3 :white_check_mark:|
+|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.358 | 0 B/op | 0 allocs/op | 4.474 ns/op | 2/2 :white_check_mark:|
+|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.358 | 0 B/op | 0 allocs/op | 4.489 ns/op | 3/3 :white_check_mark:|
+|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.383 | 0 B/op | 0 allocs/op | 30.27 ns/op | 3/3 :white_check_mark:|
 
 
 ### List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
