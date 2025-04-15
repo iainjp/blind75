@@ -19,17 +19,18 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|[01-two-sums](go/app/exercises/01-two-sums) | 1.376 | 16 B/op | 1 allocs/op | 11.41 ns/op | 3/3 :white_check_mark:|
-|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.353 | 0 B/op | 0 allocs/op | 4.949 ns/op | 2/2 :white_check_mark:|
-|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.381 | 0 B/op | 0 allocs/op | 34.10 ns/op | 3/3 :white_check_mark:|
-|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.379 | 32 B/op | 1 allocs/op | 17.49 ns/op | 2/2 :white_check_mark:|
-|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.363 | 0 B/op | 0 allocs/op | 5.864 ns/op | 3/3 :white_check_mark:|
-|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.361 | 0 B/op | 0 allocs/op | 4.475 ns/op | 2/2 :white_check_mark:|
-|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.359 | 0 B/op | 0 allocs/op | 4.506 ns/op | 3/3 :white_check_mark:|
-|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.361 | 0 B/op | 0 allocs/op | 3.610 ns/op | 4/4 :white_check_mark:|
-|[09-3sum](go/app/exercises/09-3sum) | 1.279 | 120 B/op | 4 allocs/op | 170.2 ns/op | 3/3 :white_check_mark:|
-|[10-container-with-most-water](go/app/exercises/10-container-with-most-water) | 1.372 | 0 B/op | 0 allocs/op | 8.713 ns/op | 5/5 :white_check_mark:|
-|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.422 | 0 B/op | 0 allocs/op | 30.37 ns/op | 3/3 :white_check_mark:|
+|[01-two-sums](go/app/exercises/01-two-sums) | 1.503 | 16 B/op | 1 allocs/op | 11.27 ns/op | 3/3 :white_check_mark:|
+|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.349 | 0 B/op | 0 allocs/op | 4.874 ns/op | 2/2 :white_check_mark:|
+|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.388 | 0 B/op | 0 allocs/op | 34.44 ns/op | 3/3 :white_check_mark:|
+|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.393 | 32 B/op | 1 allocs/op | 17.69 ns/op | 2/2 :white_check_mark:|
+|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.492 | 0 B/op | 0 allocs/op | 5.941 ns/op | 3/3 :white_check_mark:|
+|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.338 | 0 B/op | 0 allocs/op | 4.517 ns/op | 2/2 :white_check_mark:|
+|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.345 | 0 B/op | 0 allocs/op | 4.545 ns/op | 3/3 :white_check_mark:|
+|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.333 | 0 B/op | 0 allocs/op | 3.633 ns/op | 4/4 :white_check_mark:|
+|[09-3sum](go/app/exercises/09-3sum) | 1.303 | 120 B/op | 4 allocs/op | 167.7 ns/op | 3/3 :white_check_mark:|
+|[10-container-with-most-water](go/app/exercises/10-container-with-most-water) | 1.362 | 0 B/op | 0 allocs/op | 8.800 ns/op | 5/5 :white_check_mark:|
+|[11-sum-of-two-integers](go/app/exercises/11-sum-of-two-integers) | 1.270 | 0 B/op | 0 allocs/op | 1.997 ns/op | 3/3 :white_check_mark:|
+|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.383 | 0 B/op | 0 allocs/op | 30.47 ns/op | 3/3 :white_check_mark:|
 
 
 ## List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
