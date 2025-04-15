@@ -1,36 +1,29 @@
 package exercises
 
 func maxArea(height []int) int {
-	// two heights, only one solution
+	// two heights, only one solution; short-circuit
 	if len(height) == 2 {
-		return min(height[0], height[1]) // removes length as it's 1
+		return min(height[0], height[1]) // length is 1
 	}
 
-	maxSize := 0
+	maxArea := 0
+	left := 0
+	right := len(height) - 1
+
 	// two pointer solution; calculate each candidate of left and right until you get the max, then return that
-	for left := range height {
-		right := len(height) - 1
+	for left < right {
+		l := right - left
+		// take min of two heights, as water will overflow, not slant
+		h := min(height[left], height[right])
+		maxArea = max(l*h, maxArea)
 
-		maxHeightConsidered := min(left, right)
-
-		// until we've considered all candidates, calculate size, set if max, move right in 1
-		for left < right {
-			// skip if we've already considered a heigher value
-			if min(left, right) < maxHeightConsidered {
-				right -= 1
-				continue
-			}
-
-			maxHeightConsidered = min(left, right)
-
-			l := right - left
-			// take min of two heights, as water will overflow, not slant
-			h := min(height[left], height[right])
-			size := l * h
-			maxSize = max(size, maxSize)
+		// move pointer with lower height
+		if height[left] < height[right] {
+			left += 1
+		} else {
 			right -= 1
 		}
 	}
 
-	return maxSize
+	return maxArea
 }
