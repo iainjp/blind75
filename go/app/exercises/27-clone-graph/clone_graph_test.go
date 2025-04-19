@@ -42,10 +42,6 @@ func deserialise(s [][]int) *Node {
 	return nodes[1]
 }
 
-// func serialise(graph *Node) [][]int {
-// 	return [][]int{}
-// }
-
 func TestCloneGraph(t *testing.T) {
 	for testNum, test := range testCases {
 		testName := fmt.Sprintf("Case [%v]", testNum)
