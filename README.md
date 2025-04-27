@@ -19,20 +19,21 @@ To run just the tests:
 
 | Package | Time(s) | Bytes/op | Allocs/op | ns/op | Tests pass/fail |
 | ------- | ------- | -------- | --------- | ----- | --------------- |
-|[01-two-sums](go/app/exercises/01-two-sums) | 1.380 | 16 B/op | 1 allocs/op | 11.36 ns/op | 3/3 :white_check_mark:|
-|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.366 | 0 B/op | 0 allocs/op | 4.960 ns/op | 2/2 :white_check_mark:|
-|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.382 | 0 B/op | 0 allocs/op | 34.26 ns/op | 3/3 :white_check_mark:|
-|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.379 | 32 B/op | 1 allocs/op | 17.49 ns/op | 2/2 :white_check_mark:|
-|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.381 | 0 B/op | 0 allocs/op | 5.776 ns/op | 3/3 :white_check_mark:|
-|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.351 | 0 B/op | 0 allocs/op | 4.483 ns/op | 2/2 :white_check_mark:|
-|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.357 | 0 B/op | 0 allocs/op | 4.496 ns/op | 3/3 :white_check_mark:|
-|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.340 | 0 B/op | 0 allocs/op | 3.628 ns/op | 4/4 :white_check_mark:|
-|[09-3sum](go/app/exercises/09-3sum) | 1.284 | 120 B/op | 4 allocs/op | 169.4 ns/op | 3/3 :white_check_mark:|
-|[10-container-with-most-water](go/app/exercises/10-container-with-most-water) | 1.376 | 0 B/op | 0 allocs/op | 8.689 ns/op | 5/5 :white_check_mark:|
-|[11-sum-of-two-integers](go/app/exercises/11-sum-of-two-integers) | 1.291 | 0 B/op | 0 allocs/op | 1.992 ns/op | 3/3 :white_check_mark:|
-|[12-number-of-1-bits](go/app/exercises/12-number-of-1-bits) | 1.373 | 4 B/op | 1 allocs/op | 19.34 ns/op | 3/3 :white_check_mark:|
-|[27-clone-graph](go/app/exercises/27-clone-graph) | 1.392 | 1056 B/op | 32 allocs/op | 844.2 ns/op | 3/3 :white_check_mark:|
-|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.378 | 0 B/op | 0 allocs/op | 30.37 ns/op | 3/3 :white_check_mark:|
+|[01-two-sums](go/app/exercises/01-two-sums) | 1.355 | 16 B/op | 1 allocs/op | 11.18 ns/op | 3/3 :white_check_mark:|
+|[02-time-to-buy-stocks](go/app/exercises/02-time-to-buy-stocks) | 1.295 | 0 B/op | 0 allocs/op | 5.186 ns/op | 2/2 :white_check_mark:|
+|[03-contains-duplicates](go/app/exercises/03-contains-duplicates) | 1.381 | 0 B/op | 0 allocs/op | 34.11 ns/op | 3/3 :white_check_mark:|
+|[04-product-of-array-except-self](go/app/exercises/04-product-of-array-except-self) | 1.368 | 32 B/op | 1 allocs/op | 17.31 ns/op | 2/2 :white_check_mark:|
+|[05-maximum-subarray](go/app/exercises/05-maximum-subarray) | 1.358 | 0 B/op | 0 allocs/op | 5.822 ns/op | 3/3 :white_check_mark:|
+|[06-maximum-product-subarray](go/app/exercises/06-maximum-product-subarray) | 1.334 | 0 B/op | 0 allocs/op | 4.468 ns/op | 2/2 :white_check_mark:|
+|[07-min-rotated-sorted-array](go/app/exercises/07-min-rotated-sorted-array) | 1.350 | 0 B/op | 0 allocs/op | 4.486 ns/op | 3/3 :white_check_mark:|
+|[08-search-rotated-array](go/app/exercises/08-search-rotated-array) | 1.333 | 0 B/op | 0 allocs/op | 3.611 ns/op | 4/4 :white_check_mark:|
+|[09-3sum](go/app/exercises/09-3sum) | 1.261 | 120 B/op | 4 allocs/op | 167.0 ns/op | 3/3 :white_check_mark:|
+|[10-container-with-most-water](go/app/exercises/10-container-with-most-water) | 1.363 | 0 B/op | 0 allocs/op | 8.625 ns/op | 5/5 :white_check_mark:|
+|[11-sum-of-two-integers](go/app/exercises/11-sum-of-two-integers) | 1.282 | 0 B/op | 0 allocs/op | 1.978 ns/op | 3/3 :white_check_mark:|
+|[12-number-of-1-bits](go/app/exercises/12-number-of-1-bits) | 1.357 | 4 B/op | 1 allocs/op | 19.26 ns/op | 3/3 :white_check_mark:|
+|[27-clone-graph](go/app/exercises/27-clone-graph) | 1.369 | 1056 B/op | 32 allocs/op | 851.0 ns/op | 3/3 :white_check_mark:|
+|[35-insert-interval](go/app/exercises/35-insert-interval) | 1.373 | 168 B/op | 3 allocs/op | 81.73 ns/op | 2/2 :white_check_mark:|
+|[50-length-of-longest-substring](go/app/exercises/50-length-of-longest-substring) | 1.359 | 0 B/op | 0 allocs/op | 30.31 ns/op | 3/3 :white_check_mark:|
 
 
 ## List Of Problems in [Blind75](https://leetcode.com/problem-list/aji9fowr/):
